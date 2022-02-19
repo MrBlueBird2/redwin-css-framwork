@@ -1,0 +1,21 @@
+.navbar .navbar-nav ul {
+	display: flex;
+	list-style-type: none;
+}
+
+.navbar .navbar-nav {
+	display: flex;
+}
+
+li {
+	padding: 20px 20px;
+	font-size: 20px;
+}
+
+.navbar-logo {
+	max-width: 100%;
+	width: 60px;
+	position: relative;
+	top: -10px;
+	border-radius: 5px;
+}

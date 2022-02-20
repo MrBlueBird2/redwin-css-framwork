@@ -3,3 +3,30 @@ body {
 	margin: 0;
 	padding: 0;
 }
+
+.text-decoration-none {
+	text-decoration: none;
+}
+
+* {
+	transition: 0.85s;
+}
+
+.home {
+	padding: 200px 0px;
+}
+
+.items {
+	column-count: 2;
+	column-gap: 10px;
+}
+
+a {
+	color: red;
+	transition: 0.85s;
+}
+
+a:hover {
+	color: #c25b53;
+	transition: 0.85s;
+}

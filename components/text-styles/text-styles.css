@@ -1,0 +1,15 @@
+.text-uppercase {
+	text-transform: uppercase;
+}
+
+.text-lowercase {
+	text-transform: lowercase;
+}
+
+.fw-bold {
+	font-weight: bold;
+}
+
+.fw-medium {
+	font-weight: 500;
+}

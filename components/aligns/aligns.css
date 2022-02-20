@@ -1,0 +1,32 @@
+.center {
+	margin: 0 auto;
+	justify-content: center;
+}
+
+.justify-content-center {
+	justify-content: center;
+}
+
+.align-items-center {
+	align-items: center;
+}
+
+.right {
+	position: absolute;
+	right: 0;
+}
+
+.left {
+	position: absolute;
+	left: 55%;
+}
+
+.top {
+	position: absolute;
+	top: 0;
+}
+
+.bottom {
+	position: absolute;
+	bottom: 0;
+}

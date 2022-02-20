@@ -5,21 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Redwin CSS</title>
+    <link rel="icon" href="./images/logo.png">
     <link href="style.css" rel="stylesheet">
-    <link href="./components/navbar.css" rel="stylesheet">
+    <link href="./components/navbar/navbar.css" rel="stylesheet">
+    <link href="./components/colors/colors.css" rel="stylesheet">
+    <link href="./components/aligns/aligns.css" rel="stylesheet">
+    <link href="./components/width-and-height/width.css" rel="stylesheet">
+    <link href="./components/containers/container.css" rel="stylesheet">
+    <link href="./components/text-styles/text-styles.css" rel="stylesheet">
+    <link href="./components/buttons/buttons.css" rel="stylesheet">
 </head>
 <body>
-    <navbar class="navbar navbar-dark bg-red">
-        <div class="navbar-nav">
-            <ul class="left-navbar-items">
-                <li><img class="navbar-logo" src="./images/logo.png"></li>
-            </ul>
-            <ul class="right-navbar-items">
-                <li class="navbar-item">Home</li>
-                <li class="navbar-item">Docs</li>
-                <li class="navbar-item">Examples</li>
-            </ul>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <nav class="navbar">
+     <div class="logo text-uppercase">redwin</div>
+     <ul class="nav-links">
+       <input type="checkbox" id="checkbox_toggle" />
+       <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+       <div class="menu">
+         <li><a href="">Home</a></li>
+         <li><a href="#about">About</a></li>
+         <li><a href="./docs/index.html">Docs</a></li>
+         <li><a href="./examples/index.html">Examples</a></li>
+         <li><a href="#contact">Contact</a></li>
+       </div>
+     </ul>
+   </nav>
+<section id="home" class="home">
+    <div class="container">
+        <div class="items">
+            <div class="item-1">
+                <img src="./images/logo.png" style="border-radius: 5px; max-width: 100%; width: 390px; position: relative; left: 70px;" >
+            </div>
+            <div class="item-2" style="position: relative; left: -130px;">
+                <h1 class='fw-bold small-device-small-size' style="font-size: 3.5rem;">
+                    Redwin CSS Framework
+                </h1>
+                <br>
+                <p class='text-grey small-device-small-size' style="font-size: 1.2rem; line-height: 38px;">
+                    Redwin CSS is a CSS Framework, Currently it has some few components, Navbar, Containers, Colors, Text Styles, and a few more, Rewdin CSS is founded by Aryan Tripathi aka <a href="https://github.com/MrBlueBird2" class="text-decoration-none">Badri Vishal</a>, in the year 2022. This CSS Framework is inspired by Tailwind CSS and Bootstrap.
+                </p>
+                <br>
+                <br>
+                <btn class='btn btn-red'>
+                    Get Started
+                </btn>
+                <btn class='btn btn-outline-red' style="position: relative; left: 20px;">
+                    Download
+                </btn>
+            </div>
         </div>
-    </navbar>
+    </div>
+</section>
 </body>
 </html>

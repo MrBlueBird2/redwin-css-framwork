@@ -1,0 +1,6 @@
+.container {
+	max-width: 100%;
+	width: 75%;
+	justify-content: center;
+	margin: 0 auto;
+}

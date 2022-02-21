@@ -30,3 +30,7 @@
 	position: absolute;
 	bottom: 0;
 }
+
+.text-center {
+	text-align: center;
+}

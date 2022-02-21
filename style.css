@@ -13,12 +13,16 @@ body {
 }
 
 .home {
-	padding: 200px 0px;
+	padding: 150px 0px;
 }
 
 .items {
+	-webkit-column-count: 2;
+	-moz-column-count: 2;
 	column-count: 2;
-	column-gap: 10px;
+	-webkit-column-width: 150px;
+	-moz-column-width: 150px;
+	column-width: 150px;
 }
 
 a {

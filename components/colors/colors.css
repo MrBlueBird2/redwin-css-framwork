@@ -27,7 +27,7 @@
 }
 
 .text-black {
-	color: black;
+	color: #323336;;
 }
 
 .text-blue {
@@ -47,23 +47,24 @@
 }
 
 .text-grey {
-	color: #c2c2c2;
+	color: #8c94a1;
 }
 
 .bg-grey {
-	color: #c2c2c2;
+	color: #8c94a1;
 }
 
 .text-gray {
-	color: #c2c2c2;
+	color: #8c94a1;
 }
 
 .bg-gray {
-	color: #c2c2c2;
+	color: #8c94a1;
 }
 
 .btn-red {
 	background: #c25b53;
+	border: 1px solid transparent;
 	color: white;
 }
 
@@ -73,6 +74,7 @@
 
 .btn-outline-red {
 	border: 1px solid #c25b53;
+	background: transparent;
 	color: #c25b53;
 }
 
